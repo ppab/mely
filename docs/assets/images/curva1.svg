@@ -1,0 +1,9 @@
+<svg id="curva1" data-name="curva1" 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1717.74 1108.59">
+    
+    <defs>
+        <style>.curva-1{fill:#53abc1;}.cls-2{fill:#fff;}</style>
+    </defs>
+    <path class="curva-1" d="M1717.41-976.59a1,1,0,0,1,.33.05C1717-976.55,1716.87-976.57,1717.41-976.59Z" transform="translate(0 976.59)"/>
+    <path class="cls-2" d="M730.31,132H0V0C194.15,59.23,451.81,100.56,730.31,132Z" transform="translate(0 976.59)"/>
+</svg>

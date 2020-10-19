@@ -1,0 +1,139 @@
+@import "../variables.css";
+
+.info-box {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .col-1 {
+    flex-basis: 50%;
+    img {
+        width: 110%;
+      padding-left: 2rem;
+    }
+  }
+  .col-2 {
+    flex-basis: 50%;
+    img {
+       display:  none;
+    }
+  }
+}
+.info-box__small-title {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  line-height: 30px;
+  text-align: left;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+.info-box__text-highlight {
+  color: var(--black-text);
+  margin-top: 36px;
+  margin-bottom: 36px;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.info-box__text-1 {
+  
+    margin-top: 36px;
+
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+line-height: 30px;
+text-align: left;
+color: #5d6675;
+
+}
+
+.info-box__button-container{
+    text-align: center;
+   margin-top: 36px;
+   margin-bottom: 36px;
+}
+
+.info-box__button {
+  background: white;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  width: 212px;
+  height: 47px;
+  border-radius: 2rem;
+  font-weight: bold;
+ 
+}
+
+/*desktop version*/
+
+@media only screen and (min-width: 900px) {
+  .info-box {
+    padding-top: 3rem;
+    display: flex;
+    .col-1 {
+      flex-basis: 50%;
+      img {
+        display:  none;
+     }
+    }
+    .col-2 {
+      flex-basis: 50%;
+      img {
+        width: 120%;
+        display:  block;
+        
+        position: relative;
+        left:68px;
+        ;
+      }
+    }
+  }
+  .info-box__small-title {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+    text-align: left;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+  }
+  .info-box__text-highlight {
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 65px;
+    text-align: left;
+    color: var(--black-text);
+    margin-top: 36px;
+    margin-bottom: 93px;
+  }
+
+  .info-box__text-1 {
+    width: 674px;
+    height: 151px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 30px;
+    text-align: left;
+    color: #5d6675;
+  }
+
+  .info-box__button-container{
+    text-align: left;
+}
+  .info-box__button {
+    background: white;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    width: 212px;
+    height: 47px;
+    border-radius: 2rem;
+    font-weight: bold;
+  }
+}

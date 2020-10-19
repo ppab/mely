@@ -1,0 +1,27 @@
+@import "../variables.css";
+
+.servicios__grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .product-card {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .servicios__grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .product-card {
+      flex-basis: 32%;
+      margin-bottom: 79px;
+
+    }
+   
+  }
+}

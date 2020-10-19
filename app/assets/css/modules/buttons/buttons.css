@@ -1,0 +1,9 @@
+.button-primary {
+    padding: 0 2.5rem;
+    height: 47px;
+    background: var(--orange);
+    border-radius: 3rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
