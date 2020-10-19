@@ -4,6 +4,11 @@
         background: #fff;
         filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
         display: flex;
+
+        a{
+          color:#34383C;
+        }
+       
       }
       .menu-header .container {
         flex-basis: var(--container-width);
@@ -63,16 +68,43 @@
       }
 
 
+      .subnav{
+        button{
+          background-color: white;
+          border: none;
+          font-size: 16px;
+          color:#34383C;
+          display: flex;
+          align-items: center;
+        }
 
+        &__arrow-up{
+          display: none;
+        }
+        &__arrow-up--shown{
+          display: block;
+        }
+        &__arrow-down--not-shown{
+          display: none;
+        }
+      }
 
-    .subnav__items {
+    .subnav__items_container {
       display: none;
     }
-    .subnav__items--show {
+    .subnav__items_container--show {
       position: absolute;
-      top: 127px;
+      top: 113px;
       display: flex;
       flex-direction: column;
+    
+      margin-left: -32px;
+
+    }
+
+    .subnav__items{
+      background-color: white;
+      padding: 1rem 2rem;
     }
 
  
