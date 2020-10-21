@@ -12,6 +12,9 @@
 @import 'modules/bottom-bar/bottom-bar.css';    
 @import 'modules/footer/footer.css';
   
+.fix{
+  color:red!important;
+}
     body , button{
       margin: 0;
       font-family: "Poppins", sans-serif;
