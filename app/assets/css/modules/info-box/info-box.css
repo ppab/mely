@@ -50,6 +50,20 @@ text-align: left;
 color: #5d6675;
 
 }
+.info-box__text-3 {
+  
+  width: 514px;
+  height: 135px;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  line-height: 34px;
+  text-align: left;
+  color: #5d6675;
+  
+
+}
 
 .info-box__button-container{
     text-align: center;
@@ -91,6 +105,15 @@ color: #5d6675;
         z-index: -1;
         ;
       }
+
+      .info-box__image-right--2{
+        width: 100%;
+        position: relative;
+        left: 0;
+      }
+
+
+
     }
   }
   .info-box__small-title {

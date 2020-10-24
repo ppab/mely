@@ -11,6 +11,8 @@
 @import 'modules/contacto/contacto.css';    
 @import 'modules/bottom-bar/bottom-bar.css';    
 @import 'modules/footer/footer.css';
+@import 'modules/seo-title/seo-title.css';
+@import 'modules/image-text-row/image-text-row.css';
   
 .fix{
   color:red!important;
@@ -30,7 +32,8 @@
     }
 
     .container {
-      max-width: var(--container-width);
+      max-width: var(--max-container-width);
+      width: var(--container-width);
       margin: auto;
       padding: 0 5px;
     }

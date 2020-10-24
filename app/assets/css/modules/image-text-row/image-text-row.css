@@ -1,0 +1,142 @@
+.image-text-row {
+  --image-text-row-height: auto;
+  --bg-color-text-block: #dddddd;
+
+  height: var(--image-text-row-height);
+  width: 100vw;
+  background: var(--bg-color-text-block);
+  display: flex;
+  flex-flow: column wrap;
+
+  &__image-container {
+    height: var(--image-text-row-height);
+    flex-basis: 59%;
+    overflow: hidden;
+    order: 2;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__color-block {
+    background-color: var(--bg-color-text-block);
+    flex-basis: 41%;
+  }
+  .image-text-row_container {
+    position: relative;
+    top: calc(-1 * var(--image-text-row-height));
+  }
+
+  .image-text-row__product-info {
+    width:100%;
+    margin-left: auto;
+    background-color: var(--bg-color-text-block);
+  }
+
+  .image-text-row__product-info {
+   
+
+    background-color: var(--bg-color-text-block);
+    color: #5d6675;
+    height: var(--image-text-row-height);
+    text-align: center;
+  }
+
+  .image-text-row__product-info__title {
+    padding-top: 112px;
+    padding-bottom: 36px;
+   
+    font-size: 44px;
+    letter-spacing: -0.01em;
+    line-height: 65px;
+    text-align: left;
+    color: #171a1e;
+  }
+  .image-text-row__product-info__text {
+      text-align: left;
+    padding-top: 73px;
+    font-size: 15px;
+    padding-bottom: 100px;
+
+letter-spacing: 0.03em;
+line-height: 30px;
+
+
+  }
+}
+
+
+
+
+@media only screen and (min-width: 868px) {
+.image-text-row {
+    --image-text-row-height: 872px;
+    --bg-color-text-block: #dddddd;
+  
+    height: 872px;
+    width: 100vw;
+    background:var(--bg-color-text-block);
+    display: flex;
+    flex-flow: row wrap;
+  
+    &__image-container {
+      height: var(--image-text-row-height);
+      flex-basis: 57%;
+      overflow: hidden;
+      order: 0;
+      background-image: url('../../assets/images/peppers.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+    }
+  
+    &__image {
+      width: 100%;
+     visibility: hidden;
+    
+    }
+  
+    &__color-block {
+      background-color: var(--bg-color-text-block);
+      flex-basis: 41%;
+    }
+    .image-text-row_container {
+      position: relative;
+      top: calc(-1 * var(--image-text-row-height));
+    }
+  
+    .image-text-row__product-info {
+    
+      margin-left: auto;
+      background-color: var(--bg-color-text-block);
+    }
+  
+    .image-text-row__product-info {
+  
+      margin-left: auto;
+      max-width: 408px;
+    
+      background-color: var(--bg-color-text-block);
+      color: #5d6675;
+      height: var(--image-text-row-height);
+    }
+  
+    .image-text-row__product-info__title {
+      padding-top: 112px;
+  
+      width: 408px;
+  
+      font-size: 44px;
+      letter-spacing: -0.01em;
+      line-height: 65px;
+      text-align: left;
+      color: #171a1e;
+    }
+    .image-text-row__product-info__text {
+      padding-top: 73px;
+      font-size: 18px;
+      padding-bottom: 2px;
+    }
+  }
+}

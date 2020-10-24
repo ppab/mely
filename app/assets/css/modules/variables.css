@@ -4,5 +4,6 @@
     --black-text:#171a1e;
     --light-blue: #8998c2;
     --light-gray: #DDDDDD;
+    --max-container-width: 90%;
     --container-width: 90%;
   }

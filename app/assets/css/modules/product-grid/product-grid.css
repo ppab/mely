@@ -4,7 +4,7 @@
     background-color: #DDDDDD;
     height: 870px;
     overflow: hidden;
-  
+  position: relative;
    
   }
   
@@ -19,22 +19,7 @@
     overflow: hidden;
   
   }
-  .product-grid__product-info{
-   
-    background-color: #DDDDDD;
-    padding-left: 100px;
-  
-  margin-left: auto;
-  width: 408px;
-  max-width: 90%;
-  padding-top: 107px;
-  padding-bottom:107px;
-  color:#5D6675;
-  height: 871px;
-  
-  
-  }
-  
+
   .product-grid__product-info__title{
   
         
@@ -116,5 +101,6 @@
   
   
   }
+
   
   
