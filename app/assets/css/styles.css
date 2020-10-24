@@ -13,6 +13,9 @@
 @import 'modules/footer/footer.css';
 @import 'modules/seo-title/seo-title.css';
 @import 'modules/image-text-row/image-text-row.css';
+@import 'modules/image-text-row/image-text-left-row';
+@import 'modules/image-grid/image-grid.css';
+
   
 .fix{
   color:red!important;

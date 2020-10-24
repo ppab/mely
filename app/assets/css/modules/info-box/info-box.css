@@ -86,8 +86,10 @@ color: #5d6675;
 
 @media only screen and (min-width: 900px) {
   .info-box {
-    padding-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
+
     .col-1 {
       flex-basis: 50%;
       img {

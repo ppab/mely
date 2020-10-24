@@ -1,0 +1,9 @@
+@import 'modules/variables.css';
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    img{
+        width: 100%;
+    }
+}
