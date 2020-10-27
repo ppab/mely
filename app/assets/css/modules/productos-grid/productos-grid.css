@@ -1,0 +1,43 @@
+@import "../variables.css";
+
+
+
+.productos-grid {
+
+    --grid-columns:1;
+    --flew-width: calc(calc(100% / var(--grid-columns)) - 1%);
+
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .product-card {
+    flex-basis: var(--flew-width);
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .productos-grid {
+    --grid-columns:3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+
+    .product-card {
+        
+        flex-basis: var(--flew-width);
+      margin-bottom: 79px;
+
+    }
+
+  }
+  
+      .productos-grid.col-4{
+        --grid-columns:4;
+      }
+     
+}

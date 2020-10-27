@@ -14,7 +14,10 @@
 @import 'modules/seo-title/seo-title.css';
 @import 'modules/image-text-row/image-text-row.css';
 @import 'modules/image-text-row/image-text-left-row';
+@import 'modules/image-text-row/image-text-center.css';
 @import 'modules/image-grid/image-grid.css';
+@import 'modules/productos-grid/productos-grid.css';
+@import 'modules/product-icon-title/product-icon-title.css';
 
 
   
@@ -94,3 +97,27 @@ color: #5d6675;
   margin-bottom: -6px;
 }
 
+section.cuanto-mide{
+ padding-top: 150px;
+  background-color:#1C2435;
+}
+.cuanto-mide-icon-title{
+  color:white;
+  text-align: center;
+  h2{
+    font-family: Poppins;
+font-weight: normal;
+font-size: 39px;
+letter-spacing: 0.01em;
+line-height: 30px;
+
+color: #fff1fd;
+
+  }
+}
+
+section.servicios{
+  
+    margin-top: 150px;
+  margin-bottom: 80px;
+}

@@ -106,10 +106,27 @@ line-height: 30px;
         background-image: url('../../assets/images/mango.jpg');
         background-position: center;
     }
+    .bg--embalaje-madera{
+      background-image: url('../../assets/images/embalaje-madera.png');
+      background-position: center;
+    }
+    .bg--carpinteria{
+      background-image: url('../../assets/images/bg--carpinteria.png');
+      background-position: center;
+    }
+
     .bg--orange{
         background-color: var(--orange);
     }
+    .bg--white{
+      background-color: white;
+
+    }
   
+    .bg--tarima{
+      background-image: url('../../assets/images/bg-tarima.png');
+      background-position: center;
+    }
     &__image {
       width: 100%;
      visibility: hidden;

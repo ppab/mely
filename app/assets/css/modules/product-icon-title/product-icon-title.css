@@ -1,0 +1,25 @@
+
+
+.product-icon-title{
+
+
+
+
+
+    &__icon{
+        text-align: center;
+    }
+
+
+    h2{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 39px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+    text-align: center;
+    color: #171a1e;
+    }
+}
+
+
