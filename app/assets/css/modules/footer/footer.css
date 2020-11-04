@@ -46,7 +46,7 @@
   }
 
   &__text {
-    width: 319px;
+    max-width: 319px;
     font-size: 14px;
     line-height: 29px;
     text-align: center;
