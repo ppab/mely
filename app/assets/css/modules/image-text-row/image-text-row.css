@@ -3,6 +3,8 @@
 .image-text-row {
   --image-text-row-height: auto;
   --bg-color-text-block: #dddddd;
+  --image-container-width:59%;
+  --image-color-block-width:41%;
 
   height: var(--image-text-row-height);
   width: 100vw;
@@ -12,7 +14,7 @@
 
   &__image-container {
     height: var(--image-text-row-height);
-    flex-basis: 59%;
+    flex-basis: var(--image-container-width);
     overflow: hidden;
     order: 2;
   }
@@ -23,7 +25,7 @@
 
   &__color-block {
     background-color: var(--bg-color-text-block);
-    flex-basis: 41%;
+    flex-basis:var(--image-color-block-width);
   }
   .image-text-row_container {
     position: relative;
@@ -57,7 +59,7 @@
   }
   .image-text-row__product-info__text {
       text-align: left;
-    padding-top: 73px;
+    padding-top: 23px;
     font-size: 15px;
     padding-bottom: 100px;
 
@@ -68,13 +70,17 @@ line-height: 30px;
   }
 }
 
-
+.image-text-row.bg--white{
+  --bg-color-text-block: white;
+}
 
 
 @media only screen and (min-width: 868px) {
 .image-text-row {
     --image-text-row-height: 872px;
     --bg-color-text-block: #dddddd;
+    --image-container-width:40%;
+    --image-color-block-width:60%;
   
     height: 872px;
     width: 100vw;
@@ -84,7 +90,7 @@ line-height: 30px;
   
     &__image-container {
       height: var(--image-text-row-height);
-      flex-basis: 57%;
+      flex-basis: var(--image-container-width);
       overflow: hidden;
       order: 0;
     
@@ -135,7 +141,7 @@ line-height: 30px;
   
     &__color-block {
       background-color: var(--bg-color-text-block);
-      flex-basis: 41%;
+      flex-basis:var(--image-color-block-width);
     }
     .image-text-row_container {
       position: relative;
@@ -170,9 +176,22 @@ line-height: 30px;
       color: #171a1e;
     }
     .image-text-row__product-info__text {
-      padding-top: 73px;
+      
       font-size: 18px;
       padding-bottom: 2px;
     }
   }
+  .image-text-row.bg--white{
+    --bg-color-text-block: white;
+  }
+  
 }
+
+
+
+@media only screen and (min-width: 1200px){
+  .image-text-row {
+  --image-container-width:57%;
+  --image-color-block-width:41%;}
+}
+

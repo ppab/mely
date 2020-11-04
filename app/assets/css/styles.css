@@ -28,6 +28,7 @@
       margin: 0;
       font-family: "Poppins", sans-serif;
       box-sizing: border-box;
+      overflow-x: hidden;
     }
     
     ::placeholder{ font-family: "Poppins", sans-serif;  letter-spacing: .1em; font-weight: 200;}

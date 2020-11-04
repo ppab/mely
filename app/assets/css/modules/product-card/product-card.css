@@ -2,7 +2,7 @@
 
     .product-card{
         width: 239px;
-        height: 209px;
+        max-height: 209px;
         margin: auto;
         padding: 2rem 0;
         

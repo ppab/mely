@@ -75,8 +75,9 @@
    
     &__container {
       margin: auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr auto;
+      display: flex;
+      flex-direction: column;
+    
 
       
       .footer__lists__container {
@@ -129,4 +130,14 @@
         width: 100%;
       }
   }
+}
+
+@media only screen and (min-width:1350px) {
+
+  .footer {
+
+    &__container {
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;}}
 }
