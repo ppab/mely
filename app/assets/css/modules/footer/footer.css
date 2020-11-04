@@ -41,8 +41,8 @@
   }
 
   &__logo {
-    width: 319px;
-    height: 173px;
+    max-width: 319px;
+    max-height: 173px;
   }
 
   &__text {
