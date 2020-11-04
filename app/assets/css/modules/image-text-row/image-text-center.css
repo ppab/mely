@@ -181,7 +181,7 @@ line-height: 30px;
       
     }
     .image-text-center-row__product-info__text {
-      width: 514px;
+      max-width: 514px;
       height: 227px;
       font-family: Poppins;
       font-weight: normal;

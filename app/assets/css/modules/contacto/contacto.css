@@ -37,7 +37,7 @@
   &__title {
     font-family: Poppins;
     font-weight: normal;
-    font-size: 43px;
+    font-size: 32px;
     letter-spacing: 0.03em;
     line-height: 76px;
     text-align: left;
@@ -191,7 +191,10 @@ form{
   
   padding: 36px  50px;
   flex-basis: 35%;
-  
+  &__title {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 43px;}
 
   }
 

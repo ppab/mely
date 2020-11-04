@@ -7,8 +7,9 @@
   .col-1 {
     flex-basis: 50%;
     img {
-        width: 110%;
-      padding-left: 2rem;
+        width: 100%;
+       
+    
     }
   }
   .col-2 {
