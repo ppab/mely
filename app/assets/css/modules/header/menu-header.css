@@ -190,10 +190,19 @@ a{
       transition: left 2s;
     }
 
-    .mobile-menu-toogle{
-   cursor: pointer;
-        }
 
+
+    .mobile-menu-toogle{
+      cursor: pointer;
+      display: none;
+           }
+   
+    @media (max-width: 860px) {
+
+  
+      .mobile-menu-toogle{
+        display: block;
+      }
         
 
 
@@ -203,3 +212,5 @@ a{
         .mobile-menu-toogle__open--active,.mobile-menu-toogle__close--active{
           display: block;
         }
+
+      }
